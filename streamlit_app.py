@@ -9,7 +9,7 @@ with open('model/scaler.pkl', 'rb') as file:
 
 with open('model/lstm_model.pkl', 'rb') as file:
     lstm_model = pickle.load(file)
-
+gncvhn
 with open('model/svm_classifier.pkl', 'rb') as file:
     svm_classifier = pickle.load(file)
 
